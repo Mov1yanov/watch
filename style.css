@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;   
+}
+.content{
+	text-align: center;
+}
+
+.icon_services,.description,.image_tool{
+	display:block;
+}
+
+.icon_services{
+	padding: 8px 0;
+}
+
+.left {
+    width: 10%;
+    padding: 0 auto;
+    float: left;
+}
+
+.description{
+	vertical-align: top;
+	text-align: left;
+	float: left;
+	width: 60%;
+	padding-left: 130px;
+}
+
+.description p:nth-child(1){
+	font-size:40px;
+}
+
+.description p{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+a:link,a:visited,a:hover,a:active{
+	text-decoration:none;
+}
+
+.button{
+	margin-top: 10px;
+	background-color: #fff;
+	border:1px solid gray;
+	border-radius:20px;
+	padding:15px 33px;
+	color:#212121;
+	font-weight:bold;
+}
+
+.services_line{
+	height: 5px;
+	width: 62px;
+	background-color: #ff5c36;
+	margin: 18px 0px;
+	border-radius: 2px;
+}
+
+.image_tool{
+	width: 18%;
+    float: right;
+
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+.title_works{
+    font-size: 30px;
+margin-bottom: 50px;
+margin-top: 35px;
+    text-align: center;
+}
+.title_works h1{
+    color: #585858;
+}
+.title_works span{
+    color: #FB9384;
+
+}
+.icon_services:hover{
+    box-shadow: 0px 1px 17px 4px rgba(0,0,0,0.5);
+    transition:0.5s
+
+}
+.icon_services{
+    cursor: pointer;
+}
+.button{
+    margin-top: 50px;
+    display:inline-block;
+    width: 180px;
+}
+.button:hover{
+    box-shadow: 0px 11px 33px -5px rgba(0,0,0,0.59);
+    transition:0.5s;
+
+}
+.services_line p:last-child{
+
+    margin-bottom: 20px;
+}
+.description:first-child{
+    margin-top: 0;
+}
+.description p{
+    font-size: 20px;
+}
